@@ -1,37 +1,37 @@
 {
-  "name": "npm-dev",
+  "name": "npmcode",
   "version": "1.0.0",
   "description": "",
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "license": "ISC",
+  "homepage": "https://github.com/ianwalter/npm-dev#readme",
+  "keywords": [],
   "main": "lib",
   "bin": {
-    "npm-dev": "npm-dev"
+    "npmcode": "npmcode"
   },
   "directories": {
     "lib": "lib",
     "test": "tests"
   },
-  "dependencies": {
-    "arg": "^1.0.0",
-    "debug": "^3.1.0",
-    "execa": "^0.9.0",
-    "minimist": "^1.2.0",
-    "promise-complete": "^1.0.0"
-  },
-  "devDependencies": {
-    "jest": "^22.4.3"
-  },
-  "scripts": {
-    "test": "jest"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ianwalter/npm-dev.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ianwalter/npm-dev/issues"
   },
-  "homepage": "https://github.com/ianwalter/npm-dev#readme"
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@ianwalter/base-error": "^1.0.0",
+    "caporal": "^0.10.0",
+    "debug": "^3.1.0",
+    "execa": "^0.9.0",
+    "promise-complete": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
 }
